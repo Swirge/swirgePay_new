@@ -1,11 +1,6 @@
 import React from "react";
+import LandingScreen from "../screens/Landing";
 
-const Homepage = () => {
-  return (
-    <div>
-      <h3>This is the home page</h3>
-    </div>
-  );
-};
+const Homepage = () => <LandingScreen />;
 
 export default Homepage;
