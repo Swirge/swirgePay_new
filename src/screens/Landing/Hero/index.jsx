@@ -4,6 +4,7 @@ import ChartImage from "../../../assets/images/amico.png";
 import GooglePlayBadge from "../../../assets/images/google-play-badge.png";
 import AppleStoreBadge from "../../../assets/images/apple-store-badge.png";
 import "./hero.styles.scss";
+import Button from "../../../component/Button";
 
 const HeroSection = () => {
   return (
@@ -14,18 +15,16 @@ const HeroSection = () => {
 
       <div className="cta">
         <div className="cta-info">
-          <h3>
-            Decentralizing <br /> Finance
-          </h3>
+          <h3>Decentralizing Finance</h3>
           <p className="lead">
             Swirge | Pay is a fully decentralized payment platform built on the
             blockchain.
           </p>
 
           <div className="cta-btns">
-            <button>Claim Swirge</button>
-            <button>White-Paper</button>
-            <button>Swirge</button>
+            <Button text="Claim Swirge" />
+            <Button text="White-Paper" />
+            <Button text="Swirge" />
           </div>
         </div>
 
