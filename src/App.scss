@@ -58,3 +58,25 @@ h6 {
   margin: 0 auto;
   background-color: #eff0f6;
 }
+
+.caption {
+  color: #808080;
+}
+
+.flex {
+  display: flex;
+  width: 100%;
+}
+.end {
+  justify-content: flex-end;
+}
+.space-between {
+  justify-content: space-between;
+}
+
+.failed {
+  color: #eb5757;
+}
+.success {
+  color: #27ae60;
+}
