@@ -80,3 +80,11 @@ h6 {
 .success {
   color: #27ae60;
 }
+.padded {
+  padding: 1rem 4rem;
+}
+.container {
+  display: flex;
+  width: 100;
+  flex-wrap: wrap;
+}

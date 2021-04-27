@@ -2,6 +2,7 @@ import React from "react";
 import AppHeader from "../../component/AppHeader";
 import ContractAddress from "./ContractAddress";
 import HeroSection from "./Hero";
+import SwirgeFinance from "./SwirgeFinance";
 
 const LandingScreen = () => {
   return (
@@ -10,6 +11,7 @@ const LandingScreen = () => {
       <HeroSection />
       <ContractAddress />
       <div className="grey-spacer" />
+      <SwirgeFinance />
     </div>
   );
 };
