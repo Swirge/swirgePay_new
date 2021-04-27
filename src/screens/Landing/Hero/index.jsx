@@ -1,14 +1,14 @@
 import React from "react";
 import { FaPlay } from "react-icons/fa";
 import ChartImage from "../../../assets/images/amico.png";
-import GooglePlayBadge from "../../../assets/images/google-play-badge.png";
 import AppleStoreBadge from "../../../assets/images/apple-store-badge.png";
-import "./hero.styles.scss";
+import GooglePlayBadge from "../../../assets/images/google-play-badge.png";
 import Button from "../../../component/Button";
+import "./hero.styles.scss";
 
 const HeroSection = () => {
   return (
-    <section>
+    <section className="hero-wrap">
       <div className="imageWrap">
         <img src={ChartImage} alt="chart" />
       </div>

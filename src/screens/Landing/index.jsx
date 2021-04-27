@@ -1,5 +1,6 @@
 import React from "react";
 import AppHeader from "../../component/AppHeader";
+import ContractAddress from "./ContractAddress";
 import HeroSection from "./Hero";
 
 const LandingScreen = () => {
@@ -7,6 +8,8 @@ const LandingScreen = () => {
     <div>
       <AppHeader />
       <HeroSection />
+      <ContractAddress />
+      <div className="grey-spacer" />
     </div>
   );
 };

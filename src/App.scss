@@ -30,3 +30,31 @@ h6 {
   height: 2rem;
   width: 100%;
 }
+
+/* width */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f7f7f7;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background-color: #28b0dd;
+  border-radius: 8px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #24a1ca;
+}
+
+.grey-spacer {
+  height: 4rem;
+  width: 90%;
+  margin: 0 auto;
+  background-color: #eff0f6;
+}
