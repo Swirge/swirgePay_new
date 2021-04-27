@@ -1,13 +1,12 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
 import './cta-button.scss';
 
 const CtaButton = ({shape, value, url, type, disabled}) => {
     return !type ? (
         <button className='cta-button'>
-            <Link to={url} className={`${shape} cta-button`}>
+            <a href={url} className={`${shape} cta-button`}>
                 {value}
-            </Link>
+            </a>
         </button>
     ) : (
         <button 

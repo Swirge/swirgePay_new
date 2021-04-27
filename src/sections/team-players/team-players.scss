@@ -19,7 +19,10 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        margin-bottom: 6rem;
+
+        &.none{
+            display: none;
+        }
 
         .division-button{
             width: 100px;
@@ -61,10 +64,22 @@
     .team-players-profile{
         width: 85%;
         margin: 0 auto;
+        margin-top: 6rem;
         display: grid;
         column-gap: 2rem;
         row-gap: 2rem;
-        grid-template-columns: repeat(auto-fit, minmax(360px, 1fr));
+        justify-content: center;
+        grid-template-columns: repeat(auto-fit, 360px);
+
+        @media screen and (max-width: 882px){
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            justify-content: safe;
+        }
+
+        @media screen and (max-width: 865px){
+            grid-template-columns: 1fr;
+            justify-content: safe;
+        }
 
         @media screen and (max-width: 400px){
             grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));

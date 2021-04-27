@@ -1,9 +1,8 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
 import './profile-card.scss';
 
 
-const ProfileCard = ({ fullName, role }) => {
+const ProfileCard = ({ fullName, role, twitterUrl }) => {
     return (
         <div className='profile-card'>
             <div className="profile-card-img-container">
@@ -15,9 +14,9 @@ const ProfileCard = ({ fullName, role }) => {
                     <p className='role'>{role}</p>
                 </div>
                 <div className="twitter-icon-conatiner">
-                    <Link to='#'>
+                    <a target='_blank' rel='noreferrer' href={twitterUrl}>
                         <img className='twitter-icon' src="/assets/images/twitter.svg" alt="twitter handle"/>
-                    </Link>
+                    </a>
                 </div>
             </div>
         </div>

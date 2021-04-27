@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-import { Link } from 'react-router-dom';
 import CtaButton from '../../component/cta-button/cta-button.component';
 import './contact-us.scss';
 
@@ -19,7 +18,7 @@ const ContactUs = () => {
                 <div className="contact-details">
                     <div className="swirge-mail">
                         <img src="/assets/images/mail.svg" alt="mail"/>
-                        <Link to='mailto:contact@swirgepay.com'>contact@swirgepay.com</Link>
+                        <a target='_blank' rel='noreferrer' href='mailto:contact@swirgepay.com'>contact@swirgepay.com</a>
                     </div>
                     <p className="text">
                         As a small team we are unable to offer support in most cases but encourage 
@@ -27,18 +26,18 @@ const ContactUs = () => {
                         question to join our active community on telegram.
                     </p>
                     <div className="socials">
-                        <Link to='#'>
+                        <a target='_blank' href='##'>
                             <img className='facebook' src="/assets/images/facebook.svg" alt="facebook"/>
-                        </Link>
-                        <Link to='#'>
+                        </a>
+                        <a target='_blank' href='##'>
                             <img className='twitter' src="/assets/images/twitter-blue.svg" alt="twitter"/>
-                        </Link>
-                        <Link to='#'>
+                        </a>
+                        <a target='_blank' href='##'>
                             <img className='swirge' src="/assets/images/swirge-logo.svg" alt="swirge"/>
-                        </Link>
-                        <Link to='#'>
+                        </a>
+                        <a target='_blank' href='##'>
                             <img className='telegram' src="/assets/images/telegram.svg" alt="telegram"/>
-                        </Link>
+                        </a>
                     </div>
                 </div>
                 <div className="contact-form">

@@ -23,7 +23,7 @@ const AboutUs = () => {
                         <h1 className='title'>About Swirge</h1>
                         <p className="text">
                         We build decentralized applications on the Blockchain to completely decentralize the web, 
-                        check out our Decentralized social media Swirge.
+                        check out our Decentralized social media <a className='swirge-link' href='##'>Swirge</a>.
                         </p>
                     </div>
                     <div className="our-community">
