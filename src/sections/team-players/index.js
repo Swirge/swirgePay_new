@@ -30,7 +30,7 @@ const TeamPlayers = () => {
             />
         )) : '';
     const section3 = section3Active ? 
-        teamPlayers.slice(12, 16).map((teamPlayer, idx) => (
+        teamPlayers.slice(12, 18).map((teamPlayer, idx) => (
             <ProfileCard 
                 fullName={teamPlayer.fullName} 
                 role={teamPlayer.role} 
