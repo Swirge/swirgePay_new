@@ -1,0 +1,46 @@
+.icon-card,
+.card-content,
+.icon {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.icon-card {
+  padding: 2rem 2rem 0rem;
+  border-radius: 8px;
+  position: relative;
+  background-color: #eff0f6;
+}
+
+.icon {
+  top: -38px;
+  width: 70px;
+  height: 70px;
+  display: flex;
+  position: absolute;
+  border-radius: 50%;
+  background: #28b0dd;
+  justify-content: center;
+  align-items: center;
+  border: 4px solid white;
+}
+
+.card-content {
+  padding: 2rem 0;
+  .title {
+    font-size: 1.1rem;
+    padding-bottom: 1.5rem;
+  }
+
+  .text {
+    text-align: center;
+    padding-bottom: 1.5rem;
+    line-height: 1.5;
+  }
+
+  a {
+    color: #28b0dd;
+  }
+}
