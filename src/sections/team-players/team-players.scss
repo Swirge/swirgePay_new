@@ -69,7 +69,12 @@
         column-gap: 2rem;
         row-gap: 2rem;
         justify-content: center;
-        grid-template-columns: repeat(auto-fit, 320px);
+        grid-template-columns: repeat(auto-fit, 360px);
+
+        @media screen and (max-width: 1350px) and (min-width: 1200px) {
+            width: 95%;
+            grid-template-columns: repeat(auto-fit, 340px);
+        }
 
         @media screen and (max-width: 882px){
             grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
