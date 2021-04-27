@@ -40,6 +40,11 @@ export const teamPlayers = [
         twitterUrl: '#'
     },
     {
+        fullName: 'DIMGBA MICHEAL',
+        role: 'Developer', 
+        twitterUrl: '#'
+    },
+    {
         fullName: 'DANIEL UGOCHUKWU',
         role: 'Developer', 
         twitterUrl: '#'
