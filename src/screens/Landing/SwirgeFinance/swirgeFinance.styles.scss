@@ -1,0 +1,129 @@
+section.swirgeFinance-wrap {
+  padding: 4rem;
+  flex-direction: column;
+  align-items: center;
+}
+
+.swirgeFinance-wrap .container {
+  margin-top: 3rem;
+  justify-content: space-between;
+}
+
+.title {
+  font-size: 3rem;
+}
+h4.title {
+  font-size: 2.3rem;
+}
+
+.blurb-wrap {
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.details {
+  width: 50%;
+  padding: 2rem;
+  line-height: 2.5;
+  border-radius: 8px;
+  border: 1px solid #d9dbe9;
+  box-shadow: 0px 0px 13px 0px rgba(199, 218, 236, 0.66),
+    4px 3px 8px 0px rgba(199, 218, 236, 0.66);
+
+  .text {
+    font-size: 1.6rem;
+    line-height: 2;
+  }
+
+  button {
+    width: max-content;
+    border-radius: 6px;
+    padding: 1rem 3rem;
+  }
+}
+
+.graph-view {
+  margin: 2rem auto;
+
+  img {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 1102px) and (min-width: 1024px) {
+  .blurb-wrap {
+    .blurb-text {
+      font-size: 1rem;
+    }
+  }
+
+  .details {
+    line-height: 2;
+
+    h4.title {
+      line-height: 1.1;
+      padding: 1rem 0;
+    }
+
+    .text {
+      line-height: 1.5;
+    }
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .blurb-wrap {
+    width: 100%;
+    height: 600px;
+    margin-bottom: 5rem;
+  }
+
+  .details {
+    width: 100%;
+    line-height: 2;
+
+    h4.title {
+      line-height: 1.1;
+      padding: 2rem 0;
+    }
+
+    .text {
+      line-height: 1.8;
+    }
+  }
+}
+
+@media screen and (max-width: 538px) {
+  section.swirgeFinance-wrap {
+    padding: 2rem;
+  }
+  .blurb-wrap {
+    height: 400px;
+
+    .blurb {
+      padding: 1rem 2rem;
+    }
+
+    .blurb-image {
+      width: 30px;
+    }
+
+    .blurb-text {
+      font-size: 1rem;
+    }
+  }
+
+  .details {
+    h4.title {
+      font-size: 1.8rem;
+    }
+
+    .text {
+      font-size: 1.3rem;
+      text-align: justify;
+    }
+  }
+}

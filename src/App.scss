@@ -63,6 +63,15 @@ h6 {
   color: #808080;
 }
 
+.failed {
+  color: #eb5757;
+}
+.success {
+  color: #27ae60;
+}
+
+// Spacing utils
+
 .flex {
   display: flex;
   width: 100%;
@@ -73,18 +82,11 @@ h6 {
 .space-between {
   justify-content: space-between;
 }
-
-.failed {
-  color: #eb5757;
-}
-.success {
-  color: #27ae60;
-}
 .padded {
   padding: 1rem 4rem;
 }
 .container {
   display: flex;
-  width: 100;
+  width: 100%;
   flex-wrap: wrap;
 }
