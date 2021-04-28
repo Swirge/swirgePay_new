@@ -1,21 +1,100 @@
-// =================== Imports =============== //
+@import url("https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200;0,400;1,300&display=swap");
 
-@import url('https://fonts.googleapis.com/css2?family=Mulish&display=swap');
+*,
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Mulish", sans-serif;
+  color: #808080;
+}
 
-// =================== Imports =============== //
-
-// =================== General Styles =============== //
 body{
   width: 100%;
   max-width: 1440px;
   margin: 0 auto;
-  font-family: 'Mulish', sans-serif;
 }
 
-*{
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #4e4b66;
+}
+
+.btn-rounded {
+  border-radius: 50%;
+  background-color: #d9dbe9;
+  display: flex;
+  justify-content: center;
+  padding: 1rem;
+}
+
+.toolbar {
+  height: 2rem;
+  width: 100%;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f7f7f7;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background-color: #28b0dd;
+  border-radius: 8px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #24a1ca;
+}
+
+.grey-spacer {
+  height: 4rem;
+  width: 90%;
+  margin: 0 auto;
+  background-color: #eff0f6;
+}
+
+.caption {
+  color: #808080;
+}
+
+.failed {
+  color: #eb5757;
+}
+.success {
+  color: #27ae60;
+}
+
+// Spacing utils
+
+.flex {
+  display: flex;
+  width: 100%;
+}
+.end {
+  justify-content: flex-end;
+}
+.space-between {
+  justify-content: space-between;
+}
+.padded {
+  padding: 1rem 4rem;
+}
+.container {
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
 }
 
 a{
@@ -30,12 +109,4 @@ button{
 button:focus{
   border: 2px solid #282c34;
 }
-
-// =================== General Styles =============== //
-
-.App {
-  text-align: center;
-}
-
-
 
