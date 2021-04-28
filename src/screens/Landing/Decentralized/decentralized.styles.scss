@@ -93,7 +93,7 @@ section.decentralized-root {
   }
 }
 
-@media screen and (max-width: 713px) and (min-width: 320px) {
+@media screen and (max-width: 713px) {
   section.decentralized-root {
     padding: 1rem 1.5rem;
   }
@@ -113,5 +113,26 @@ section.decentralized-root {
     width: 100%;
     padding: 3rem 0;
     text-align: center;
+  }
+}
+
+@media screen and (max-width: 319px) {
+  .image-wrap {
+    height: 300px;
+  }
+
+  .content {
+    padding: 1rem;
+
+    .title {
+      font-size: 1.5rem;
+      margin-bottom: 1rem;
+    }
+
+    .lead {
+      line-height: 1.5;
+      font-size: 1rem;
+      margin-bottom: 1rem;
+    }
   }
 }

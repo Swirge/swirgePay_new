@@ -24,3 +24,61 @@ section.dex-wrap {
     }
   }
 }
+
+@media screen and (max-width: 1367px) {
+  section.dex-wrap {
+    padding: 10rem 1rem;
+  }
+}
+
+@media screen and (max-width: 1267px) {
+  .dex-wrap .icon-card {
+    width: 26%;
+
+    &:not(:last-child) {
+      margin-right: 4rem;
+    }
+
+    &:last-child {
+      top: -2.5rem;
+    }
+  }
+}
+
+@media screen and (max-width: 930px) {
+  section.dex-wrap {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .dex-wrap .icon-card {
+    width: 50%;
+
+    &:not(:last-child) {
+      margin-right: 0;
+      margin-bottom: 4rem;
+    }
+
+    &:last-child {
+      margin-left: 4rem;
+      top: 0.5rem;
+    }
+  }
+}
+
+@media screen and (max-width: 695px) and (min-width: 443px) {
+  .dex-wrap .icon-card {
+    width: 80%;
+  }
+}
+
+@media screen and (max-width: 442px) {
+  .dex-wrap .icon-card {
+    width: 90%;
+
+    &:last-child {
+      margin-left: 0;
+      top: 0.5rem;
+    }
+  }
+}
