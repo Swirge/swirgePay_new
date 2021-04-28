@@ -1,12 +1,18 @@
-import React from "react";
+import React, { useState } from "react";
 import { FaPlay } from "react-icons/fa";
 import ChartImage from "../../../assets/images/amico.png";
 import AppleStoreBadge from "../../../assets/images/apple-store-badge.png";
 import GooglePlayBadge from "../../../assets/images/google-play-badge.png";
 import Button from "../../../component/Button";
+import Modal from "../Modal/modal";
 import "./hero.styles.scss";
 
 const HeroSection = () => {
+  const [modalState, setModalState] = useState(false);
+
+  const handleModal = () => {
+    setModalState(!modalState)
+  }
   return (
     <section className="hero-wrap">
       <div className="imageWrap">
@@ -33,7 +39,7 @@ const HeroSection = () => {
           <img src={AppleStoreBadge} alt="download from apple store" />
         </div>
 
-        <div className="intro-video">
+        <div onClick={handleModal} className="intro-video">
           <div className="btn-rounded play">
             <FaPlay />
           </div>
@@ -41,6 +47,7 @@ const HeroSection = () => {
           <p>Intro Video</p>
         </div>
       </div>
+      { modalState && <Modal handleModal = {handleModal} />}
     </section>
   );
 };

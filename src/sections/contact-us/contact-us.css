@@ -1,0 +1,197 @@
+.contact-us {
+  width: 100%;
+  background: #ffffff;
+  padding: 10rem 7.5%;
+}
+
+.contact-us .title {
+  font-size: 3em;
+  color: #4E4B66;
+  font-weight: 700;
+  width: 100%;
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+.contact-us .contact-us-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+}
+
+.contact-us .contact-us-content .contact-details {
+  width: 40%;
+}
+
+.contact-us .contact-us-content .contact-details .swirge-mail {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 2.2rem;
+}
+
+.contact-us .contact-us-content .contact-details .swirge-mail a {
+  color: #28B0DD;
+  font-size: 1.5em;
+  font-weight: 600;
+  margin-left: 1rem;
+}
+
+@media screen and (max-width: 400px) {
+  .contact-us .contact-us-content .contact-details .swirge-mail {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .contact-us .contact-us-content .contact-details .swirge-mail a {
+    margin-left: 0;
+    margin-top: 1rem;
+  }
+}
+
+.contact-us .contact-us-content .contact-details .text {
+  color: #808080;
+  font-size: 1.5em;
+  font-weight: 600;
+  line-height: 48px;
+  letter-spacing: 0em;
+  margin-bottom: 3rem;
+}
+
+.contact-us .contact-us-content .contact-details .socials {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.contact-us .contact-us-content .contact-details .socials a {
+  margin-right: 7%;
+}
+
+.contact-us .contact-us-content .contact-details .socials a:last-child {
+  margin-right: 0;
+}
+
+.contact-us .contact-us-content .contact-details .socials a:hover {
+  -webkit-box-shadow: 0px 24px 32px rgba(40, 176, 221, 0.16);
+          box-shadow: 0px 24px 32px rgba(40, 176, 221, 0.16);
+}
+
+@media screen and (max-width: 755px) {
+  .contact-us .contact-us-content .contact-details .socials {
+    margin-right: 5%;
+  }
+}
+
+.contact-us .contact-us-content .contact-form {
+  background: rgba(239, 240, 246, 0.24);
+  border-radius: 11px;
+  padding: 3rem;
+  width: 53%;
+}
+
+.contact-us .contact-us-content .contact-form .input-grid {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (minmax(264px, 1fr))[auto-fit];
+      grid-template-columns: repeat(auto-fit, minmax(264px, 1fr));
+  -webkit-column-gap: 1rem;
+          column-gap: 1rem;
+  row-gap: 2rem;
+  margin-bottom: 2rem;
+}
+
+.contact-us .contact-us-content .contact-form label p {
+  font-size: .875rem;
+  font-weight: 400;
+  line-height: 18px;
+  margin-bottom: .6rem;
+  color: #4E4B66;
+}
+
+.contact-us .contact-us-content .contact-form label input, .contact-us .contact-us-content .contact-form label textarea {
+  background: #EFF0F6;
+  height: 48px;
+  width: 100%;
+  padding: .6rem;
+  border: none;
+  outline: none;
+  border: 1.5px solid #D9DBE9;
+  border-radius: 5px;
+}
+
+.contact-us .contact-us-content .contact-form label input:focus, .contact-us .contact-us-content .contact-form label textarea:focus {
+  border: 1.5px solid #28B0DD80;
+}
+
+.contact-us .contact-us-content .contact-form label textarea {
+  resize: none;
+  width: 100%;
+  max-width: 576px;
+  min-height: 194px;
+}
+
+.contact-us .contact-us-content .contact-form .cta-submit {
+  margin: 0 auto;
+  margin-top: 2rem;
+  display: block;
+}
+
+@media screen and (max-width: 1055px) {
+  .contact-us .contact-us-content {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .contact-us .contact-us-content .contact-details, .contact-us .contact-us-content .contact-form {
+    width: 100%;
+    max-width: 700px;
+    margin: auto;
+  }
+  .contact-us .contact-us-content .contact-details {
+    text-align: center;
+  }
+  .contact-us .contact-us-content .contact-details .swirge-mail, .contact-us .contact-us-content .contact-details .socials {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .contact-us .contact-us-content .contact-form {
+    margin-top: 3rem;
+  }
+}
+
+@media screen and (max-width: 415px) {
+  .contact-us .contact-us-content .contact-form {
+    padding: 3rem 0rem;
+  }
+  .contact-us .contact-us-content .contact-form .input-grid {
+    -ms-grid-columns: (minmax(220px, 1fr))[auto-fit];
+        grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  }
+}
+
+@media screen and (max-width: 755px) {
+  .contact-us {
+    padding: auto !important;
+  }
+}
+/*# sourceMappingURL=contact-us.css.map */

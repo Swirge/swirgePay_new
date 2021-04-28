@@ -1,0 +1,64 @@
+.modalBody {
+  position: fixed;
+  top: 0;
+  left: 0;
+  min-width: 100vw !important;
+  min-height: 100vh;
+  z-index: 999999999;
+  background-color: rgba(0, 0, 0, 0.6);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column;
+          flex-flow: column;
+}
+
+.modalBody .containerModal {
+  position: relative;
+  width: 80%;
+}
+
+.modalBody .containerModal .vidMain {
+  width: 100%;
+}
+
+.modalBody .containerModal .play {
+  position: absolute;
+  top: 43.7%;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+}
+
+.modalBody .containerModal .cancel {
+  position: absolute;
+  font-size: 40px;
+  font-weight: bold;
+  color: grey;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-transform: rotateZ(45deg);
+          transform: rotateZ(45deg);
+  top: 0;
+  right: 0;
+  cursor: pointer;
+}
+/*# sourceMappingURL=style.css.map */

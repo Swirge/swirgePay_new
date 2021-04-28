@@ -36,23 +36,23 @@ export const teamPlayers = [
         imgUrl: '/assets/images/mercy.jpg'
     },
     {
-        fullName: 'PROMISE EBITU',
-        role: 'Marketing Advisor Africa', 
-        twitterUrl: 'https://www.twitter.com/EbituPromise',
-        imgUrl: '/assets/images/promise.jpg'
+        fullName: 'NANSEL RIMSAH',
+        role: 'Head of Products Marketplace', 
+        twitterUrl: '#',
+        imgUrl: '/assets/images/nansel.jpg'
     },
   
     {
         fullName: 'PRECIOUS NWOKWO',
         role: 'Developer', 
         twitterUrl: 'https://www.twitter.com/NwokoPrecious2',
-        imgUrl: '/assets/images/precious.jpg'
+        imgUrl: '/assets/images/precious.jpeg'
     },
     {
         fullName: 'DIMGBA MICHEAL',
         role: 'Developer', 
         twitterUrl: 'https://twitter.com/mickilo99',
-        imgUrl: '/assets/images/dimgba.jpg'
+        imgUrl: '/assets/images/mike.jpeg'
     },
     {
         fullName: 'DANIEL UGOCHUKWU',
@@ -72,12 +72,7 @@ export const teamPlayers = [
         twitterUrl: '#',
         imgUrl: '/assets/images/tochukwu.jpg'
     },
-    {
-        fullName: 'NANSEL RIMSAH',
-        role: 'Head of Products Marketplace', 
-        twitterUrl: '#',
-        imgUrl: '/assets/images/nansel.jpg'
-    },
+ 
     {
         fullName: 'GIFT OKONKWO',
         role: 'Editor in Chief', 
@@ -90,5 +85,11 @@ export const teamPlayers = [
         twitterUrl: '#',
         imgUrl: '/assets/images/jimmy.jpg'
     },
+    {
+        fullName: 'PROMISE EBITU',
+        role: 'Marketing Advisor Africa', 
+        twitterUrl: 'https://www.twitter.com/EbituPromise',
+        imgUrl: '/assets/images/promise.jpg'
+    }
 
 ];

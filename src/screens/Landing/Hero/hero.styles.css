@@ -92,7 +92,7 @@ section.hero-wrap {
   cursor: pointer;
 }
 
-.cta .intro-video {
+.intro-video {
   border-radius: 12px;
   border: 1px solid #d9dbe9;
   background-color: #eff0f6;
@@ -103,15 +103,16 @@ section.hero-wrap {
       -ms-flex-align: center;
           align-items: center;
   padding: 1rem 2rem;
+  cursor: pointer;
   font-size: 1.5rem;
 }
 
-.cta .intro-video .play {
+.intro-video .play {
   cursor: pointer;
   margin-right: 0.5rem;
 }
 
-.cta .intro-video .play svg {
+.intro-video .play svg {
   font-size: 1.75rem;
   fill: #4e4b66;
 }

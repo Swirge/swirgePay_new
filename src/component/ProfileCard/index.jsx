@@ -1,10 +1,15 @@
-import React from "react";
+import React, {useEffect} from "react";
 import PropTypes from "prop-types";
+import Aos from "aos";
+import "aos/dist/aos.css";
 import "./profileCard.styles.scss";
 
 const ProfileCard = ({ headerTitle, subtitle, quote, avatar }) => {
+  useEffect(() => {
+    Aos.init({duration: 2000});
+  }, [])
   return (
-    <div className="profile-card-root">
+    <div data-aos="fade-right" className="profile-card-root">
       <div className="profile-card-header">
         <div className="avatar">
           <img src={avatar} alt="profile_pics"/>
