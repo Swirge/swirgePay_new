@@ -1,15 +1,12 @@
-import './App.scss';
-import { Route, BrowserRouter } from "react-router-dom";
+import "./App.scss";
+import AppRoutes from "./routes";
+import ThemeProvider from "./component/ThemeProvider";
 
 function App() {
   return (
-    <BrowserRouter>
-    <Route exact path="/">
-      <main>
-        Hello Word
-      </main>
-    </Route>
-  </BrowserRouter>
+    <ThemeProvider>
+      <AppRoutes />
+    </ThemeProvider>
   );
 }
 

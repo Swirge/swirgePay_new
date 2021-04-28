@@ -1,0 +1,26 @@
+.appHeader {
+  display: flex;
+  justify-content: space-between;
+  padding: 1.2rem 4rem;
+  position: sticky;
+  top: 0;
+  width: 100%;
+  z-index: 999999;
+  background-color: white;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+
+  :first-child {
+    margin-right: 0.5rem;
+  }
+}
+
+@media screen and (max-width: 534px) {
+  .appHeader {
+    padding: 1.5rem;
+  }
+}
