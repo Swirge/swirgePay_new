@@ -1,0 +1,117 @@
+section.decentralized-root {
+  width: 100%;
+  padding: 1rem 4rem;
+}
+
+.decentralized-root > section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.decentralized-social {
+  margin-bottom: 8rem;
+}
+
+.image-wrap {
+  width: 60%;
+  height: 700px;
+  background-color: #eff0f6;
+}
+
+.content {
+  width: 40%;
+  padding: 0 3rem;
+
+  .title {
+    font-size: 3.5rem;
+    margin-bottom: 2rem;
+  }
+
+  .lead {
+    line-height: 1.5;
+    font-size: 1.3rem;
+    margin-bottom: 2.5rem;
+  }
+}
+
+.decentralized-payment {
+  flex-direction: row-reverse;
+}
+
+@media screen and (max-width: 1189px) {
+  .image-wrap {
+    width: 55%;
+    height: 600px;
+  }
+  .content {
+    width: 50%;
+
+    .title {
+      font-size: 2.6rem;
+    }
+  }
+}
+
+@media screen and (max-width: 1124px) and (min-width: 937px) {
+  .image-wrap {
+    width: 50%;
+    height: 500px;
+  }
+  .content {
+    width: 50%;
+
+    .title {
+      font-size: 2.3rem;
+      margin-bottom: 1rem;
+    }
+
+    .lead {
+      font-size: 1.12rem;
+      margin-bottom: 1.8rem;
+    }
+  }
+}
+
+@media screen and (max-width: 936px) and (min-width: 714px) {
+  .decentralized-root > section {
+    flex-direction: column;
+  }
+
+  .decentralized-social {
+    margin-bottom: 8rem;
+  }
+
+  .image-wrap {
+    width: 80%;
+    height: 500px;
+  }
+
+  .content {
+    width: 80%;
+    padding: 3rem 0;
+  }
+}
+
+@media screen and (max-width: 713px) and (min-width: 320px) {
+  section.decentralized-root {
+    padding: 1rem 1.5rem;
+  }
+  .decentralized-root > section {
+    flex-direction: column;
+  }
+
+  .decentralized-social {
+    margin-bottom: 8rem;
+  }
+
+  .image-wrap {
+    width: 100%;
+  }
+
+  .content {
+    width: 100%;
+    padding: 3rem 0;
+    text-align: center;
+  }
+}
