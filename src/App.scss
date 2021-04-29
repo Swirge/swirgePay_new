@@ -9,6 +9,12 @@ body {
   color: #808080;
 }
 
+body{
+  width: 100%;
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
 h1,
 h2,
 h3,
@@ -90,3 +96,17 @@ h6 {
   width: 100%;
   flex-wrap: wrap;
 }
+
+a{
+  text-decoration: none;
+}
+
+button{
+  outline: none;
+  border: none;
+}
+
+button:focus{
+  border: 2px solid #282c34;
+}
+
