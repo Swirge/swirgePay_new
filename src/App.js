@@ -1,6 +1,8 @@
-import "./App.scss";
-import AppRoutes from "./routes";
+import './App.scss';
+// import { Route, BrowserRouter } from "react-router-dom";
 import ThemeProvider from "./component/ThemeProvider";
+
+import AppRoutes from "./routes";
 
 function App() {
   return (
@@ -10,4 +12,17 @@ function App() {
   );
 }
 
+
+// function App() {
+//   return (
+//     <BrowserRouter>
+//       <Route exact path="/">
+//         {/* <Header /> */}
+//         <main>
+          
+//         </main>
+//       </Route>
+//     </BrowserRouter>
+//   );
+// }
 export default App;

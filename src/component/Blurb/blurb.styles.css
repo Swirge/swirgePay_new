@@ -1,0 +1,38 @@
+.blurb {
+  margin: 0.5rem;
+  padding: 2rem 3rem;
+  border-radius: 8px;
+  border: 1px solid #d9dbe9;
+  -webkit-box-shadow: 0px 0px 13px 0px rgba(199, 218, 236, 0.66), 4px 3px 8px 0px rgba(199, 218, 236, 0.66);
+          box-shadow: 0px 0px 13px 0px rgba(199, 218, 236, 0.66), 4px 3px 8px 0px rgba(199, 218, 236, 0.66);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+}
+
+.blurb-image {
+  width: 45px;
+}
+
+.blurb-image img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+
+.blurb-text {
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+  margin-left: 1rem;
+  font-size: 1.2rem;
+}
+/*# sourceMappingURL=blurb.styles.css.map */

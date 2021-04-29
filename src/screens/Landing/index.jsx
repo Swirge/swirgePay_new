@@ -3,6 +3,9 @@ import AppHeader from "../../component/AppHeader";
 import ContractAddress from "./ContractAddress";
 import HeroSection from "./Hero";
 import SwirgeFinance from "./SwirgeFinance";
+import TeamPlayers from '../../sections/team-players';
+import AboutUs from '../../sections/about-us';
+import ContactUs from '../../sections/contact-us';
 
 const LandingScreen = () => {
   return (
@@ -12,6 +15,9 @@ const LandingScreen = () => {
       <ContractAddress />
       <div className="grey-spacer" />
       <SwirgeFinance />
+      <AboutUs />
+      <ContactUs/>
+      <TeamPlayers/>
     </div>
   );
 };

@@ -1,6 +1,6 @@
 import React from "react";
 import SwirgeLogo from "../../assets/images/logo.png";
-import PayLogo from "../../assets/images/PAY.png";
+import PayLogo from "../../assets/images/pay.png";
 import Navigation from "../Navigation";
 import { navData } from "./data";
 import "./appHeader.scss";

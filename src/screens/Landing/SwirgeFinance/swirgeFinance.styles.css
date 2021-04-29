@@ -1,0 +1,138 @@
+section.swirgeFinance-wrap {
+  padding: 4rem;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.swirgeFinance-wrap .container {
+  margin-top: 3rem;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.title {
+  font-size: 3rem;
+}
+
+h4.title {
+  font-size: 2.3rem;
+}
+
+.blurb-wrap {
+  width: 30%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.details {
+  width: 60%;
+  padding: 2rem;
+  line-height: 2.5;
+  border-radius: 8px;
+  border: 1px solid #d9dbe9;
+  -webkit-box-shadow: 0px 0px 13px 0px rgba(199, 218, 236, 0.66), 4px 3px 8px 0px rgba(199, 218, 236, 0.66);
+          box-shadow: 0px 0px 13px 0px rgba(199, 218, 236, 0.66), 4px 3px 8px 0px rgba(199, 218, 236, 0.66);
+}
+
+.details .text {
+  font-size: 1.6rem;
+  line-height: 2;
+}
+
+.details button {
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+  border-radius: 6px;
+  padding: 1rem 3rem;
+}
+
+.graph-view {
+  margin: 2rem auto;
+}
+
+.graph-view img {
+  width: 100%;
+}
+
+@media screen and (max-width: 1102px) and (min-width: 1024px) {
+  .blurb-wrap {
+    width: 40%;
+  }
+  .blurb-wrap .blurb-text {
+    font-size: 1rem;
+  }
+  .details {
+    width: 50%;
+    line-height: 2;
+  }
+  .details h4.title {
+    line-height: 1.1;
+    padding: 1rem 0;
+  }
+  .details .text {
+    line-height: 1.5;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .blurb-wrap {
+    width: 100%;
+    height: 600px;
+    margin-bottom: 5rem;
+  }
+  .details {
+    width: 100%;
+    line-height: 2;
+  }
+  .details h4.title {
+    line-height: 1.1;
+    padding: 2rem 0;
+  }
+  .details .text {
+    line-height: 1.8;
+  }
+}
+
+@media screen and (max-width: 538px) {
+  section.swirgeFinance-wrap {
+    padding: 2rem;
+  }
+  .blurb-wrap {
+    height: 400px;
+  }
+  .blurb-wrap .blurb {
+    padding: 1rem 2rem;
+  }
+  .blurb-wrap .blurb-image {
+    width: 30px;
+  }
+  .blurb-wrap .blurb-text {
+    font-size: 1rem;
+  }
+  .details h4.title {
+    font-size: 1.8rem;
+  }
+  .details .text {
+    font-size: 1.3rem;
+    text-align: justify;
+  }
+}
+/*# sourceMappingURL=swirgeFinance.styles.css.map */
