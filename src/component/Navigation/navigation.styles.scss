@@ -1,0 +1,60 @@
+ul {
+  margin: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 50%;
+}
+
+li {
+  list-style: none;
+}
+
+a,
+a:visited,
+a:focus,
+a:active {
+  color: #4e4b66;
+  text-decoration: none;
+}
+
+.selected {
+  color: #28b0dd !important;
+}
+
+.mobileScreen {
+  display: none;
+}
+
+// Things that wouldn't change from tablet screen downwards
+@media (max-width: 1024px) {
+  ul {
+    display: none;
+  }
+
+  .mobileScreen {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+
+    svg {
+      font-size: 1.65rem;
+    }
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  ul {
+    display: none;
+  }
+
+  .mobileScreen {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+
+    svg {
+      font-size: 1.65rem;
+    }
+  }
+}

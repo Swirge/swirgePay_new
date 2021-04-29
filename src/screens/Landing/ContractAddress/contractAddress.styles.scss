@@ -1,0 +1,98 @@
+section.address-wrap {
+  display: flex;
+  align-items: flex-end;
+  padding: 1rem 4rem;
+  margin-bottom: 2.5rem;
+}
+
+.info-wrap {
+  z-index: 10000;
+  width: 60%;
+  padding: 2rem;
+  display: flex;
+  border-radius: 8px;
+  background-color: white;
+  align-items: center;
+  flex-direction: column;
+  box-shadow: 0px 0px 13px 0px rgba(199, 218, 236, 0.66),
+    4px 3px 8px 0px rgba(199, 218, 236, 0.66);
+}
+
+.rank {
+  background-color: #28b0dd33;
+  width: 40%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  border-radius: 8px;
+  padding: 1.5rem 0;
+
+  h3 {
+    font-size: 5rem;
+    margin: 1.5rem auto;
+  }
+}
+
+.ticker {
+  display: flex;
+  font-size: 1.5rem;
+  align-items: center;
+
+  img {
+    margin-right: 1rem;
+  }
+}
+
+.info-details {
+  padding-left: 2rem;
+  flex-grow: 1;
+
+  aside {
+    margin-bottom: 1.4rem;
+  }
+}
+
+h6.primaryText {
+  font-size: 2.58rem;
+  font-weight: 500;
+}
+.primaryText span {
+  font-size: 1.15rem;
+}
+p.caption {
+  font-weight: 300;
+  font-size: 1.2rem;
+  padding-bottom: 0.25rem;
+}
+
+.price {
+  .priceAction {
+    margin-left: 1.56rem;
+    display: flex;
+    align-items: center;
+
+    svg {
+      fill: #eb5757;
+      font-size: 1.67rem;
+    }
+  }
+}
+
+.btn-wrap {
+  margin-left: -1.5rem;
+
+  button {
+    border-radius: 0;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    margin-bottom: 1.5rem;
+    padding: 2.4rem 1.2rem 2.4rem 3rem;
+    font-size: 1.65rem;
+    transition: transform 0.25s ease-in-out;
+  }
+
+  button:hover {
+    transform: scale(0.95);
+  }
+}
