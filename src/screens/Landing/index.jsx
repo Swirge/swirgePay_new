@@ -19,6 +19,7 @@ const LandingScreen = () => {
       <SwirgeFinance />
       <DexSwirge />
       <Decentralized />
+      <TeamPlayers />
     </div>
   );
 };

@@ -15,6 +15,7 @@ const TeamPlayers = () => {
         teamPlayers.slice(0, 6).map((teamPlayer, idx) => (
             <ProfileCard 
                 fullName={teamPlayer.fullName} 
+                imgUrl={teamPlayer.imgUrl}
                 role={teamPlayer.role} 
                 twitterUrl={teamPlayer.twitterUrl}
                 key={idx}    
@@ -27,6 +28,7 @@ const TeamPlayers = () => {
                 role={teamPlayer.role} 
                 twitterUrl={teamPlayer.twitterUrl}
                 key={idx}    
+                imgUrl={teamPlayer.imgUrl}
             />
         )) : '';
     const section3 = section3Active ? 
@@ -36,6 +38,7 @@ const TeamPlayers = () => {
                 role={teamPlayer.role} 
                 twitterUrl={teamPlayer.twitterUrl}
                 key={idx}    
+                imgUrl={teamPlayer.imgUrl}
             />
         )) : '';
 

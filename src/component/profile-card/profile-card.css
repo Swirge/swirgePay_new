@@ -1,0 +1,69 @@
+.profile-card {
+  min-width: 360px;
+  min-height: 480px;
+}
+
+@media screen and (max-width: 400px) {
+  .profile-card {
+    min-width: 300px;
+    min-height: 450px;
+  }
+}
+
+.profile-card .profile-card-img-container {
+  width: 100%;
+  height: 360px;
+  background: #EFF0F6;
+  border-top-left-radius: 11px;
+  border-top-right-radius: 11px;
+}
+
+.profile-card .profile-card-img-container .profile-card-img {
+  width: 100%;
+  height: 100%;
+}
+
+.profile-card .profile-card-details {
+  background: #28B0DD;
+  border-bottom-left-radius: 11px;
+  border-bottom-right-radius: 11px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 2rem;
+  font-size: 16px;
+}
+
+.profile-card .profile-card-details .fullname {
+  color: #ffffff;
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+
+.profile-card .profile-card-details .role {
+  color: #EFF0F6;
+  font-weight: 700;
+}
+
+.profile-card .profile-card-details .twitter-icon-conatiner {
+  background-color: #e2e2e2;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+}
+
+.profile-card .profile-card-details .twitter-icon-conatiner a, .profile-card .profile-card-details .twitter-icon-conatiner .twitter-icon {
+  width: 100%;
+}
+
+.profile-card .profile-card-details .twitter-icon-conatiner:hover {
+  -webkit-box-shadow: 0px 24px 32px rgba(255, 255, 255, 0.2);
+          box-shadow: 0px 24px 32px rgba(255, 255, 255, 0.2);
+}
+/*# sourceMappingURL=profile-card.css.map */

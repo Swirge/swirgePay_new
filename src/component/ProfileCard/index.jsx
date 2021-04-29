@@ -6,7 +6,9 @@ const ProfileCard = ({ headerTitle, subtitle, quote, avatar }) => {
   return (
     <div className="profile-card-root">
       <div className="profile-card-header">
-        <div className="avatar"></div>
+        <div className="avatar">
+          <img src={avatar} alt="profile_pics"/>
+        </div>
         <div className="header-info">
           <p className="header-title">{headerTitle}</p>
           <p className="header-subtitle">{subtitle}</p>
