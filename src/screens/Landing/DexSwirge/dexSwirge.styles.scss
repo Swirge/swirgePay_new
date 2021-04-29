@@ -1,0 +1,84 @@
+section.dex-wrap {
+  justify-content: center;
+  padding: 10rem 7rem;
+  position: relative;
+}
+
+.dex-wrap .icon-card {
+  width: 20%;
+
+  &:not(:last-child) {
+    margin-right: 4rem;
+  }
+
+  &:last-child {
+    top: -2.5rem;
+    box-shadow: 0px 0px 13px 0px rgba(199, 218, 236, 0.66),
+      4px 3px 8px 0px rgba(199, 218, 236, 0.66);
+    background-color: white;
+    border: 1px solid #28b0dd;
+
+    .icon {
+      background-color: white;
+      border: 4px solid #28b0dd;
+    }
+  }
+}
+
+@media screen and (max-width: 1367px) {
+  section.dex-wrap {
+    padding: 10rem 1rem;
+  }
+}
+
+@media screen and (max-width: 1267px) {
+  .dex-wrap .icon-card {
+    width: 26%;
+
+    &:not(:last-child) {
+      margin-right: 4rem;
+    }
+
+    &:last-child {
+      top: -2.5rem;
+    }
+  }
+}
+
+@media screen and (max-width: 930px) {
+  section.dex-wrap {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .dex-wrap .icon-card {
+    width: 50%;
+
+    &:not(:last-child) {
+      margin-right: 0;
+      margin-bottom: 4rem;
+    }
+
+    &:last-child {
+      margin-left: 4rem;
+      top: 0.5rem;
+    }
+  }
+}
+
+@media screen and (max-width: 695px) and (min-width: 443px) {
+  .dex-wrap .icon-card {
+    width: 80%;
+  }
+}
+
+@media screen and (max-width: 442px) {
+  .dex-wrap .icon-card {
+    width: 90%;
+
+    &:last-child {
+      margin-left: 0;
+      top: 0.5rem;
+    }
+  }
+}
