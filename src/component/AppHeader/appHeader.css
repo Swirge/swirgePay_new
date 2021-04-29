@@ -1,0 +1,37 @@
+.appHeader {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 1.2rem 4rem;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  width: 100%;
+  z-index: 999999;
+  background-color: white;
+}
+
+.logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.logo :first-child {
+  margin-right: 0.5rem;
+}
+
+@media screen and (max-width: 534px) {
+  .appHeader {
+    padding: 1.5rem;
+  }
+}
+/*# sourceMappingURL=appHeader.css.map */
