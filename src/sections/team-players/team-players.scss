@@ -1,0 +1,95 @@
+.team-players{
+    width: 100%;
+    padding: 3rem 0;
+
+
+    .title{
+        font-size: 3em;
+        color: #4E4B66;
+        font-weight: 700;
+        width: 100%;
+        text-align: center;
+        margin-bottom: 2rem;
+    }
+
+    .division-button-container{
+        width: 100%;
+        max-width: 600px;
+        margin: 0 auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        &.none{
+            display: none;
+        }
+
+        .division-button{
+            width: 100px;
+            height: 100px;
+            border: 1px solid #D9DBE9;
+            border-radius: 50%;
+            background: #EFF0F6;
+            color: #808080;
+            margin-right: 4rem;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 2.25em;
+            font-weight: 600;
+            cursor: pointer;
+
+
+            &.active{
+                background: #28B0DD;
+                border: 1px solid #28B0DD;
+                color: #ffffff;
+            }
+
+            &.last{
+                margin-right: 0;
+            }
+        }
+
+        @media screen and (max-width: 480px) {
+            width: 95%;
+
+            .division-button{
+                width: 55px;
+                height: 55px;
+            }
+        }
+    }
+
+    .team-players-profile{
+        width: 85%;
+        margin: 0 auto;
+        margin-top: 6rem;
+        display: grid;
+        column-gap: 2rem;
+        row-gap: 2rem;
+        justify-content: center;
+        grid-template-columns: repeat(auto-fit, 360px);
+
+        @media screen and (max-width: 1350px) and (min-width: 1200px) {
+            width: 95%;
+            grid-template-columns: repeat(auto-fit, 340px);
+        }
+
+        @media screen and (max-width: 882px){
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            justify-content: safe;
+        }
+
+        @media screen and (max-width: 865px){
+            grid-template-columns: 1fr;
+            justify-content: safe;
+        }
+
+        @media screen and (max-width: 400px){
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            column-gap: 0;
+            width: 95%;
+        }
+    }
+}
