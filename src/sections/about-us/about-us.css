@@ -88,10 +88,6 @@
           align-items: center;
 }
 
-.about-us .about-us-content .about-us-details .community-buttons .cta-button {
-  margin-right: 2rem;
-}
-
 .about-us .about-us-content .about-us-details .community-buttons .cta-button:last-child {
   margin-right: 0;
 }

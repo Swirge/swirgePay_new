@@ -54,6 +54,7 @@ const AboutUs = () => {
                             <CtaButton shape='oval' value='Twitter' url='https://twitter.com/swirgenetwork'/>
                             <CtaButton shape='oval' value='Telegram' url='https://t.me/swirgepay'/>
                             <CtaButton shape='oval' value='Swirge' url='https://app.swirge.com/'/>
+                            <CtaButton shape='oval' value='Medium' url='https://swirgenetwork.medium.com/'/>
                         </div>
                     </div>
                 </div>
