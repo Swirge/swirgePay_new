@@ -1,7 +1,10 @@
 .about-us{
     width: 100%;
     background: #EFF0F6;
-    padding: 4.5rem 7.5%;
+    padding: auto;
+    margin: 10% auto auto;
+    box-sizing: border-box;
+    overflow: hidden;
 
     .title{
         font-size: 3em;
@@ -10,6 +13,8 @@
         width: 100%;
         text-align: center;
         margin-bottom: 3rem;
+
+        padding-top: 40px;
     }
 
     .text{
@@ -26,19 +31,22 @@
         justify-content: space-between;
         align-items: center;
         width: 100%;
+        margin: auto 20px;
         
         .about-us-image{
-            width: 55%;
+            width: 50%;
             min-height: 659px;
-            background: #D9DBE9;
+            
 
-            img{
+            svg{
                 width: 100%;
+                margin: 15% auto;
+                height: 100%;
             }
         }
 
         .about-us-details{
-            width: 40%;
+            width: 45%;
 
             .our-mission,
             .about-swirge,
@@ -100,6 +108,7 @@
         }
 
         @media screen and (max-width: 480px){
+            margin: 30% auto auto;
             .about-us-details{
 
                 .community-buttons{

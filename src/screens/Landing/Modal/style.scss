@@ -1,0 +1,93 @@
+.modalBody{
+    position: fixed;
+    top: 0;
+    left: 0;
+    min-width: 100vw!important;
+    min-height: 100vh;
+    z-index: 999999999;
+    background-color: rgba(0,0,0,0.6);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: column;
+    .containerModal{
+        position: relative;
+        width: 80%;
+        .vidMain{
+            width:100%;
+        }
+        .play{
+            position: absolute;
+            top: 43.7%;
+            // transform: translateY(-40%);
+            left: 50%;
+            transform: translateX(-50%);
+        }
+        .cancel{
+            position: absolute;
+            font-size: 40px;
+            font-weight: bold;
+            color: grey;
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            transform: rotateZ(45deg);
+            top: 0;
+            right: 0;
+            cursor: pointer;
+        }
+    }
+
+}
+
+
+
+// .modalBody{
+//     position: relative;
+// }
+
+// .modalContainer{
+//     margin: 0% !important;
+//     display: none;
+//     // pointer-events: none;
+//     transition: display 1s ease-in-out;
+//     position: absolute;
+//     z-index: 99999;
+//     top: 20;
+
+//     right: -20%;
+//     left: -100%;    
+// }
+
+//     .modalShowing-true{
+//     display: block;
+//     pointer-events: showing;
+//     z-index: 99999;
+//     position: absolute;
+//     top: 0;
+//     left: 0;
+//     }
+
+//     .intro-video {
+//     border-radius: 12px;
+//     border: 1px solid #d9dbe9;
+//     background-color: #eff0f6;
+//     display: flex;
+//     align-items: center;
+//     padding: 1rem 2rem;
+//     cursor: pointer;
+//     font-size: 1.5rem;
+
+//     .play {
+//         cursor: pointer;
+//         margin-right: 0.5rem;
+//         svg {
+//         font-size: 1.75rem;
+//         fill: #4e4b66;
+//         }
+//     }
+// }
+

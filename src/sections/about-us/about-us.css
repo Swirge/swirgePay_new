@@ -1,0 +1,143 @@
+.about-us {
+  width: 100%;
+  background: #EFF0F6;
+  padding: auto;
+  margin: 10% auto auto;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  overflow: hidden;
+}
+
+.about-us .title {
+  font-size: 3em;
+  color: #4E4B66;
+  font-weight: 700;
+  width: 100%;
+  text-align: center;
+  margin-bottom: 3rem;
+  padding-top: 40px;
+}
+
+.about-us .text {
+  color: #808080;
+  font-size: 1.125em;
+  font-weight: 400;
+  line-height: 36px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.about-us .about-us-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+  margin: auto 20px;
+}
+
+.about-us .about-us-content .about-us-image {
+  width: 50%;
+  min-height: 659px;
+}
+
+.about-us .about-us-content .about-us-image svg {
+  width: 100%;
+  margin: 15% auto;
+  height: 100%;
+}
+
+.about-us .about-us-content .about-us-details {
+  width: 45%;
+}
+
+.about-us .about-us-content .about-us-details .our-mission,
+.about-us .about-us-content .about-us-details .about-swirge,
+.about-us .about-us-content .about-us-details .our-community {
+  margin-bottom: 2rem;
+}
+
+.about-us .about-us-content .about-us-details .our-mission .title,
+.about-us .about-us-content .about-us-details .about-swirge .title,
+.about-us .about-us-content .about-us-details .our-community .title {
+  margin-bottom: 22px;
+  text-align: left;
+}
+
+.about-us .about-us-content .about-us-details .our-mission .swirge-link,
+.about-us .about-us-content .about-us-details .about-swirge .swirge-link,
+.about-us .about-us-content .about-us-details .our-community .swirge-link {
+  color: #28B0DD;
+}
+
+.about-us .about-us-content .about-us-details .community-buttons {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.about-us .about-us-content .about-us-details .community-buttons .cta-button {
+  margin-right: 2rem;
+}
+
+.about-us .about-us-content .about-us-details .community-buttons .cta-button:last-child {
+  margin-right: 0;
+}
+
+@media screen and (max-width: 1055px) {
+  .about-us .about-us-content {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .about-us .about-us-content .about-us-image, .about-us .about-us-content .about-us-details {
+    width: 100%;
+    max-width: 700px;
+    margin: auto;
+  }
+  .about-us .about-us-content .about-us-details {
+    margin-top: 3rem;
+  }
+  .about-us .about-us-content .about-us-details .our-mission .title, .about-us .about-us-content .about-us-details .our-mission .text,
+  .about-us .about-us-content .about-us-details .about-swirge .title,
+  .about-us .about-us-content .about-us-details .about-swirge .text,
+  .about-us .about-us-content .about-us-details .our-community .title,
+  .about-us .about-us-content .about-us-details .our-community .text {
+    text-align: center;
+  }
+  .about-us .about-us-content .about-us-details .community-buttons {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .about-us .about-us-content {
+    margin: 30% auto auto;
+  }
+  .about-us .about-us-content .about-us-details .community-buttons {
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+  }
+  .about-us .about-us-content .about-us-details .community-buttons .cta-button {
+    margin-right: 0;
+    margin-bottom: 1rem;
+  }
+}
+/*# sourceMappingURL=about-us.css.map */
