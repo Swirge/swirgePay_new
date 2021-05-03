@@ -66,9 +66,13 @@ const ContractAddress = () => {
   display: 'none',
 }} className="coinmarketcap-currency-widget" data-currencyid="7467" data-base="USD" data-secondary="" data-ticker="true" data-rank="true" data-marketcap="true" data-volume="true" data-statsticker="true" data-stats="USD"></div>
       <div className="btn-wrap">
-        <Button text="BSC Contract Address" />
+        <Button text="BSC Contract Address" click ={ e =>{
+          window.location.href = 'https://www.bscscan.com/token/0xe40255c5d7fa7ceec5120408c78c787cecb4cfdb'
+        }} />
 
-        <Button text="ETH Contract Address" />
+        <Button text="ETH Contract Address" click ={ e =>{
+          window.location.href = 'https://etherscan.io/token/0x92eF4FFBfe0Df030837b65d7FcCFE1ABd6549579'
+        }} />
       </div>
     </section>
   );
