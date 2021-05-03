@@ -1,17 +1,22 @@
-import React from "react";
+import React, { useEffect } from "react";
 import Button from "../../../component/Button";
 import SwirgeLogo from "../../../assets/images/logo.png";
 import { BsFillCaretDownFill as DownArrowIcon } from "react-icons/bs";
 import "./contractAddress.styles.scss";
+import { GetValues } from "./getValues";
 
 const ContractAddress = () => {
+  const {values, getElement} = GetValues()
+  useEffect(()=>{
+    getElement('coinmarketcap-currency-widget');
+  })
   return (
     <section className="address-wrap">
       <div className="info-wrap">
         <div className="flex">
           <div className="rank">
             <p className="caption">Rank</p>
-            <h3>1221</h3>
+            <h3>{values && values.rank}</h3>
             <h6 className="ticker">
               <img src={SwirgeLogo} alt="swirge ticker" /> SWG
             </h6>
@@ -25,25 +30,25 @@ const ContractAddress = () => {
               <p className="caption">Price</p>
               <div className="flex price">
                 <h6 className="primaryText">
-                  0.425562 <span className="currency">USD</span>
+                {values && values.price} <span className="currency">USD</span>
                 </h6>
 
-                <span className="priceAction failed">
+                {/* <span className="priceAction failed">
                   <DownArrowIcon />
-                  (-12.06%)
-                </span>
+                  {values && values.percentage}
+                </span> */}
               </div>
             </aside>
             <aside>
               <p className="caption">Market Cap</p>
               <h6 className="primaryText">
-                $5.10 M <span className="currency">USD</span>
+              {values && values.mCap} M <span className="currency">USD</span>
               </h6>
             </aside>
             <aside>
               <p className="caption">Volume</p>
               <h6 className="primaryText">
-                $692.89 K <span className="currency">USD</span>
+              {values && values.volume} K <span className="currency">USD</span>
               </h6>
             </aside>
           </div>
@@ -54,6 +59,12 @@ const ContractAddress = () => {
         </div>
       </div>
 
+<div style={{
+  zIndex: 100000,
+  background:'white',
+  flexBasis:'50%',
+  display: 'none',
+}} className="coinmarketcap-currency-widget" data-currencyid="7467" data-base="USD" data-secondary="" data-ticker="true" data-rank="true" data-marketcap="true" data-volume="true" data-statsticker="true" data-stats="USD"></div>
       <div className="btn-wrap">
         <Button text="BSC Contract Address" />
 
