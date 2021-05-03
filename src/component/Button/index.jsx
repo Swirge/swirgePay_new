@@ -2,9 +2,11 @@ import React from "react";
 import PropTypes from "prop-types";
 import "./button.styles.scss";
 
-const Button = ({ text, click, type, fullWidth, variant }) => {
+const Button = ({ text, click, type, fullWidth, variant}) => {
+
+
   return (
-    <button onClick={click} type={type}>
+    <button onClick={click} type={type} >
       {text}
     </button>
   );
@@ -19,7 +21,7 @@ Button.propTypes = {
   click: PropTypes.func,
   type: PropTypes.string,
   variant: PropTypes.string,
-  text: PropTypes.string.isRequired,
+  text: PropTypes.string.isRequired
 };
 
 export default Button;

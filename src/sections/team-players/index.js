@@ -60,7 +60,7 @@ const TeamPlayers = () => {
     const teamPlayersConatiner = [section1, section2, section3];
 
     return (
-        <div className='team-players'>
+        <div id="team" className='team-players'>
             <h1 className='title'>Team Players</h1>
             <div className={`${divisionNone ? 'none' : ''} division-button-container`}>
                 <div 
@@ -83,7 +83,7 @@ const TeamPlayers = () => {
                 >
                     2
                 </div>
-                <div 
+                {/* <div 
                     className={`division-button last ${section3Active ? 'active' : ''}`}
                     onClick={()=>{
                         setSection1Active(false);
@@ -92,7 +92,7 @@ const TeamPlayers = () => {
                     }}
                 >
                     3
-                </div>
+                </div> */}
             </div>
             <div className="team-players-profile">
                 { teamPlayersConatiner }

@@ -1,6 +1,9 @@
 import React, { useState } from 'react';
 import CtaButton from '../../component/cta-button/cta-button.component';
+import { FaTwitter, FaTelegram, FaInbox, FaMedium, FaFont } from "react-icons/fa";
+import { IconContext } from "react-icons";
 import './contact-us.scss';
+
 
 const ContactUs = () => {
     const [firstName, setFirstName] = useState('');
@@ -10,14 +13,13 @@ const ContactUs = () => {
     const [message, setMessage] = useState('');
 
     const isInComplete = (firstName === '' || lastName === '' || email === '' || phone === '' || message === '');
-
     return (
-        <div className='contact-us'>
+        <div className='contact-us' id="contact">
             <h1 className="title">Contact Us</h1>
             <div className="contact-us-content">
                 <div className="contact-details">
                     <div className="swirge-mail">
-                        <img src="/assets/images/mail.svg" alt="mail"/>
+                        <FaInbox />
                         <a target='_blank' rel='noreferrer' href='mailto:contact@swirgepay.com'>contact@swirgepay.com</a>
                     </div>
                     <p className="text">
@@ -25,18 +27,29 @@ const ContactUs = () => {
                         anyone facing issues with their wallet, transaction, or Swirge | Pay related 
                         question to join our active community on telegram.
                     </p>
+
                     <div className="socials">
-                        <a target='_blank' href='##'>
-                            <img className='facebook' src="/assets/images/facebook.svg" alt="facebook"/>
+
+                        <a target='_blank' href='https://twitter.com/swirgenetwork'>
+                        
+                        <IconContext.Provider value={{ color: "blue", className: "global-class-name" }}>
+                            <FaTwitter />
+                        </IconContext.Provider>
                         </a>
-                        <a target='_blank' href='##'>
-                            <img className='twitter' src="/assets/images/twitter-blue.svg" alt="twitter"/>
+                        <a target='_blank' href='https://app.swirge.com/'>
+                            <img className='contact_swirge' src="/assets/logo.jpg" alt="swirge"/>
                         </a>
-                        <a target='_blank' href='##'>
-                            <img className='swirge' src="/assets/images/swirge-logo.svg" alt="swirge"/>
+                        <a target='_blank' href='https://t.me/swirgepay'>
+
+                        <IconContext.Provider value={{ color: "blue", className: "global-class-name" }}>
+                            <FaTelegram />
+                        </IconContext.Provider>
                         </a>
-                        <a target='_blank' href='##'>
-                            <img className='telegram' src="/assets/images/telegram.svg" alt="telegram"/>
+                        <a target='_blank' href='https://swirgenetwork.medium.com'>
+
+                            <IconContext.Provider value={{ color: "blue", className: "global-class-name meduimIcon" }}>
+                                <FaMedium />
+                            </IconContext.Provider>
                         </a>
                     </div>
                 </div>

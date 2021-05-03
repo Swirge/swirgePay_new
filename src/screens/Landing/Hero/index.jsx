@@ -28,15 +28,18 @@ const HeroSection = () => {
           </p>
 
           <div className="cta-btns">
-            <Button text="Claim Swirge" />
-            <Button text="White-Paper" />
-            <Button text="Swirge" />
+            <Button text="Claim Swirge" click = {e => {window.location.href = 'https://sale.swirgepay.com/'}}  />
+            <Button text="White-Paper" click = {e => {window.location.href = 'https://swirgepay.com/docs/not-so-whitepaper.pdf'}} />
+            <Button text="Swirge" click = {e => {window.location.href = 'https://app.swirge.com'}} />
           </div>
         </div>
 
         <div className="store-downloads">
-          <img src={GooglePlayBadge} alt="download from google play store" />
-          <img src={AppleStoreBadge} alt="download from apple store" />
+          <img src={GooglePlayBadge} alt="download from google play store" onClick= {e => {
+            window.location.href = "https://play.google.com/store/apps/details?id=com.swirgewave.app"
+          }} />
+          <img src={AppleStoreBadge} alt="download from apple store" onClick= {e => {
+            window.location.href = "https://testflight.apple.com/join/8Wdqk2uH" }} />
         </div>
 
         <div onClick={handleModal} className="intro-video">

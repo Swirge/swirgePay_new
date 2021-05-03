@@ -35,7 +35,7 @@ const SwirgeFinance = () => {
             <img src={GraphImage} alt="transaction graph" />
           </div>
 
-          <Button text="Learn more" />
+          <Button text="Learn more" click = {e => {window.location.href = 'https://docs.swirge.com/'}} />
         </div>
       </div>
     </section>

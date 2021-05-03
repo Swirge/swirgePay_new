@@ -54,42 +54,42 @@ export const teamPlayers = [
         twitterUrl: 'https://twitter.com/mickilo99',
         imgUrl: '/assets/images/mike.jpeg'
     },
-    {
-        fullName: 'DANIEL UGOCHUKWU',
-        role: 'Developer', 
-        twitterUrl: '#',
-        imgUrl: '/assets/images/daniel.jpg'
-    },
-    {
-        fullName: 'ARIANEGBE GODSPOWER',
-        role: 'Head of Socials', 
-        twitterUrl: '#',
-        imgUrl: '/assets/images/godspower.jpg'
-    },
-    {
-        fullName: 'TOCHUKWU NWOLISA',
-        role: 'Marketing Officer Africa', 
-        twitterUrl: '#',
-        imgUrl: '/assets/images/tochukwu.jpg'
-    },
+    // {
+    //     fullName: 'DANIEL UGOCHUKWU',
+    //     role: 'Developer', 
+    //     twitterUrl: '#',
+    //     imgUrl: '/assets/images/daniel.jpg'
+    // },
+    // {
+    //     fullName: 'ARIANEGBE GODSPOWER',
+    //     role: 'Head of Socials', 
+    //     twitterUrl: '#',
+    //     imgUrl: '/assets/images/godspower.jpg'
+    // },
+    // {
+    //     fullName: 'TOCHUKWU NWOLISA',
+    //     role: 'Marketing Officer Africa', 
+    //     twitterUrl: '#',
+    //     imgUrl: '/assets/images/tochukwu.jpg'
+    // },
  
-    {
-        fullName: 'GIFT OKONKWO',
-        role: 'Editor in Chief', 
-        twitterUrl: '#',
-        imgUrl: '/assets/images/gift.jpg'
-    },
-    {
-        fullName: 'JIMMY FRIDAY',
-        role: 'Advisor', 
-        twitterUrl: '#',
-        imgUrl: '/assets/images/jimmy.jpg'
-    },
-    {
-        fullName: 'PROMISE EBITU',
-        role: 'Marketing Advisor Africa', 
-        twitterUrl: 'https://www.twitter.com/EbituPromise',
-        imgUrl: '/assets/images/promise.jpg'
-    }
+    // {
+    //     fullName: 'GIFT OKONKWO',
+    //     role: 'Editor in Chief', 
+    //     twitterUrl: '#',
+    //     imgUrl: '/assets/images/gift.jpg'
+    // },
+    // {
+    //     fullName: 'JIMMY FRIDAY',
+    //     role: 'Advisor', 
+    //     twitterUrl: '#',
+    //     imgUrl: '/assets/images/jimmy.jpg'
+    // },
+    // {
+    //     fullName: 'PROMISE EBITU',
+    //     role: 'Marketing Advisor Africa', 
+    //     twitterUrl: 'https://www.twitter.com/EbituPromise',
+    //     imgUrl: '/assets/images/promise.jpg'
+    // }
 
 ];

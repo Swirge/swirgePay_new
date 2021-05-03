@@ -9,7 +9,7 @@ const AboutUs = () => {
         Aos.init({duration: 2000});
       }, [])
     return (
-        <div className='about-us'>
+        <div id="about-us" className='about-us'>
             <h1 className='title'>About Us</h1>
             <div className="about-us-content">
                 <div data-aos="flip-up" className="about-us-image">
@@ -51,9 +51,9 @@ const AboutUs = () => {
                     <div className="our-community">
                         <h1 className='title'>Our Community</h1>
                         <div className="community-buttons">
-                            <CtaButton shape='oval' value='Twitter' url='#'/>
-                            <CtaButton shape='oval' value='Telegram' url='#'/>
-                            <CtaButton shape='oval' value='Swirge' url='#'/>
+                            <CtaButton shape='oval' value='Twitter' url='https://twitter.com/swirgenetwork'/>
+                            <CtaButton shape='oval' value='Telegram' url='https://t.me/swirgepay'/>
+                            <CtaButton shape='oval' value='Swirge' url='https://app.swirge.com/'/>
                         </div>
                     </div>
                 </div>

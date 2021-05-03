@@ -1,6 +1,6 @@
 import PropTypes from "prop-types";
 import React from "react";
-import { NavLink } from "react-router-dom";
+import { Link } from "react-router-dom";
 import "./navigation.styles.scss";
 
 const Navigation = ({ navList }) => {
@@ -8,9 +8,9 @@ const Navigation = ({ navList }) => {
     <ul>
       {navList.map((item, idx) => (
         <li key={`${idx}-${item.name}`}>
-          <NavLink to={item.to} activeClassName="selected">
+          <a href={item.to}  activeClassName="selected">
             {item.name}
-          </NavLink>
+          </a>
         </li>
       ))}
     </ul>

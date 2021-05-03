@@ -1,4 +1,4 @@
-import { Route, BrowserRouter, Switch } from "react-router-dom";
+import { Route, Link, BrowserRouter, Switch } from "react-router-dom";
 import AboutUs from "./page/AboutUs";
 import Contact from "./page/Contact";
 import FAQ from "./page/FAQ";
@@ -7,6 +7,7 @@ import Github from "./page/Github";
 import Homepage from "./page/Homepage";
 import NotFound from "./page/NotFound";
 import Team from "./page/Team";
+import DexSwirge from "./screens/Landing/DexSwirge";
 
 function AppRoutes() {
   return (
@@ -18,7 +19,7 @@ function AppRoutes() {
         <Route exact path="/github" component={Github} />
         <Route exact path="/contact" component={Contact} />
         <Route exact path="/about-us" component={AboutUs} />
-        <Route exact path="/features" component={Features} />
+        <Route exact path="/features" component={DexSwirge}/>
         <Route path="/" component={NotFound} />
       </Switch>
     </BrowserRouter>

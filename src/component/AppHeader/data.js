@@ -1,30 +1,30 @@
 export const navData = [
   {
     name: "Home",
-    to: "/",
+    to: "#",
   },
   {
     name: "Features",
-    to: "/features",
+    to: "#features",
   },
   {
     name: "About Us",
-    to: "/about-us",
+    to: "#about-us",
   },
   {
     name: "FAQ",
-    to: "/faq",
+    to: "https://swirgepay.com/faq/",
   },
   {
     name: "Team",
-    to: "/team",
+    to: "#team",
   },
   {
     name: "GitHub",
-    to: "/github",
+    to: "https://github.com/Swirge/",
   },
   {
     name: "Contact",
-    to: "/contact",
+    to: "#contact",
   },
 ];
